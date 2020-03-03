@@ -2,17 +2,24 @@ import React from "react";
 import "./StyleComponent.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEllipsisV, faWheelchair } from "@fortawesome/free-solid-svg-icons";
-import { Table } from "react-bootstrap";
+import { Table, Nav } from "react-bootstrap";
+
 const Bar = () => {
   return (
     <div className="bar-wrapper">
       <div className="data-wrapper">
-        <p id="main-title">
-          {"    "}
-          <FontAwesomeIcon icon={faEllipsisV} />
-          {"    "}
-          Main Report
-        </p>
+        <Nav justify variant="tabs" defaultActiveKey="/home" className="title">
+          <Nav.Item>
+            <Nav.Link href="/home">
+              <p id="title">
+                <FontAwesomeIcon icon={faEllipsisV} />
+                {"    "}
+                Main Report
+              </p>
+            </Nav.Link>
+          </Nav.Item>
+        </Nav>
+
         <Table responsive>
           <thead>
             <tr>
@@ -25,7 +32,7 @@ const Bar = () => {
           </thead>
           <tbody>
             <tr>
-              <td> http://achitectsorange.com</td>
+              <td>&#9633; http://achitectsorange.com</td>
               <td>
                 <FontAwesomeIcon icon={faWheelchair} /> Motor
               </td>
@@ -38,7 +45,10 @@ const Bar = () => {
               <td>Elements must have sufficient color contrast</td>
             </tr>
             <tr>
-              <td> http://achitectsorange.com</td>
+              <td>
+                {" "}
+                <span id="square-icon">&#9633;</span> http://achitectsorange.com
+              </td>
               <td>
                 <FontAwesomeIcon icon={faWheelchair} /> Motor
               </td>
@@ -51,7 +61,7 @@ const Bar = () => {
               <td>Elements must have sufficient color contrast</td>
             </tr>
             <tr>
-              <td> http://achitectsorange.com</td>
+              <td>&#9633; http://achitectsorange.com</td>
               <td>
                 <FontAwesomeIcon icon={faWheelchair} /> Motor
               </td>
@@ -64,7 +74,7 @@ const Bar = () => {
               <td>Elements must have sufficient color contrast</td>
             </tr>
             <tr>
-              <td> http://achitectsorange.com</td>
+              <td>&#9633; http://achitectsorange.com</td>
               <td>
                 <FontAwesomeIcon icon={faWheelchair} /> Motor
               </td>
@@ -77,7 +87,7 @@ const Bar = () => {
               <td>Elements must have sufficient color contrast</td>
             </tr>
             <tr>
-              <td> http://achitectsorange.com</td>
+              <td>&#9633; http://achitectsorange.com</td>
               <td>
                 <FontAwesomeIcon icon={faWheelchair} /> Motor
               </td>
