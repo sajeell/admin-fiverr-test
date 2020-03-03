@@ -37,6 +37,58 @@ const Bar = () => {
               <td>WCAG 1.2.1</td>
               <td>Elements must have sufficient color contrast</td>
             </tr>
+            <tr>
+              <td> http://achitectsorange.com</td>
+              <td>
+                <FontAwesomeIcon icon={faWheelchair} /> Motor
+              </td>
+              <td>
+                &#128314;
+                {"         "}
+                High
+              </td>
+              <td>WCAG 1.2.1</td>
+              <td>Elements must have sufficient color contrast</td>
+            </tr>
+            <tr>
+              <td> http://achitectsorange.com</td>
+              <td>
+                <FontAwesomeIcon icon={faWheelchair} /> Motor
+              </td>
+              <td>
+                &#128314;
+                {"         "}
+                High
+              </td>
+              <td>WCAG 1.2.1</td>
+              <td>Elements must have sufficient color contrast</td>
+            </tr>
+            <tr>
+              <td> http://achitectsorange.com</td>
+              <td>
+                <FontAwesomeIcon icon={faWheelchair} /> Motor
+              </td>
+              <td>
+                &#128314;
+                {"         "}
+                High
+              </td>
+              <td>WCAG 1.2.1</td>
+              <td>Elements must have sufficient color contrast</td>
+            </tr>
+            <tr>
+              <td> http://achitectsorange.com</td>
+              <td>
+                <FontAwesomeIcon icon={faWheelchair} /> Motor
+              </td>
+              <td>
+                &#128314;
+                {"         "}
+                High
+              </td>
+              <td>WCAG 1.2.1</td>
+              <td>Elements must have sufficient color contrast</td>
+            </tr>
           </tbody>
         </Table>
       </div>
