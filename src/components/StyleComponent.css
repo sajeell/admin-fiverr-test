@@ -1,19 +1,30 @@
-.table {
+.data-wrapper {
+  width: 80%;
+  border: none;
+  margin-left: 10%;
+  border-top-right-radius: 50px;
+}
+
+.table-responsive {
+  border-top-right-radius: 20px;
+}
+
+table {
   -webkit-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.75);
   padding: 0;
   margin-top: 0;
-  width: 80%;
+  width: 50%;
   background-color: white;
-  margin-left: 10%;
+  overflow: scroll;
   border-top-right-radius: 2%;
   border-top-left-radius: 0;
+  text-align: left;
 }
 .table tbody td {
   padding-bottom: 1%;
   padding-top: 1%;
-  padding-left: 2%;
 }
 .table thead th {
   padding-bottom: 2%;
@@ -24,14 +35,115 @@
 .nav-tabs .nav-link {
   margin-left: 10%;
   border: none;
-
-  width: 140px;
+  height: 40px;
+  width: 165px;
 }
 .nav-tabs {
   border: none;
 }
 .title p {
-  font-size: 12px;
-  margin-right: 25%;
-  margin-top: 10%;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+/* .col-01 {
+  font-weight: bolder;
+  margin-right: 12px;
+  font-size: 17px;
+} */
+
+#wheelchair-icon {
+  margin-right: 5%;
+  font-size: 35px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-left: inherit;
+}
+
+#website {
+  margin-left: 17%;
+  margin-top: 23px;
+  font-weight: bolder;
+}
+#instances {
+  margin-left: 22%;
+  margin-top: 23px;
+  font-weight: bolder;
+}
+#webpage {
+  margin-left: 7.5%;
+  margin-top: 23px;
+  font-weight: bolder;
+}
+.row-01 {
+  border-top: 10px solid white;
+}
+
+.glyphicon {
+  padding-left: 0px;
+  font-size: 25px;
+}
+
+#brain-image {
+  margin-left: 10px;
+  margin-right: 9px;
+}
+
+#square-image {
+  margin-right: 9px;
+  margin-left: 2px;
+  font-size: 2.5rem;
+  margin-bottom: 3px;
+}
+
+#eye-image {
+  font-size: 2rem;
+  margin-left: 10px;
+  margin-right: 12px;
+}
+
+#square-orange-image {
+  margin-right: 5px;
+}
+
+#circle-orange-image {
+  margin-right: 5px;
+}
+
+#yellow-down-arrow {
+  margin-left: 9px;
+}
+
+#red-up-arrow {
+  margin-left: 12px;
+}
+
+#text-01 {
+  margin-left: 35%;
+}
+
+#red-arrow {
+  margin-left: 25%;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  width: 256px;
+}
+
+#title-02 {
+  margin-right: 100px;
+}
+
+#title-01 {
+  margin-right: 120px;
+}
+
+#mute-image {
+  margin-right: 8px;
+  margin-left: 10px;
 }
